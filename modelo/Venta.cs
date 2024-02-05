@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace VentaInformatica
+namespace entrega1.modelo
 {
     internal class Venta
     {
@@ -18,9 +18,9 @@ namespace VentaInformatica
 
         public Venta(int id, string comentarios, int idUsuario)
         {
-            this._id = id;
-            this._comentarios = comentarios;
-            this._idUsuario = idUsuario;
+            _id = id;
+            _comentarios = comentarios;
+            _idUsuario = idUsuario;
 
         }
 
